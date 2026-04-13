@@ -41,9 +41,9 @@ python -c "import requests, xml.etree.ElementTree as ET, json; url='https://www.
     - `source_url`: 原始快讯链接
     - `financing_info`: 融资轮次金额信息
 2. 保存为 `sync_payload.json`。
-3. 运行同步器：
+3. 运行同步器（使用 Skill 目录下 `scripts/` 中的脚本）：
 ```powershell
-python "company crawl/src/agent_main.py" sync_payload.json
+python "scripts/agent_main.py" sync_payload.json
 ```
 
 ## 5. 清理与反馈
